@@ -71,6 +71,9 @@ class CalcCtrl {
     }
 
     public function generateView() {
+        global $user;
+
+        getSmarty()->assign('user', $user);
 
 
         getSmarty()->assign('form', $this->form);

@@ -7,6 +7,7 @@
         <li class="pure-menu-item"><a href="#" class="pure-menu-link">Home</a></li>
         <li class="pure-menu-item pure-menu-selected"><a href="#" class="pure-menu-link">Calculator</a></li>
         <li class="pure-menu-item"><a href="#" class="pure-menu-link">Contact</a></li>
+        <li class="pure-menu-item"><a href="{$conf->action_url}logout" class="pure-menu-link">Logout</a></li>
     </ul>
 </div>
 
@@ -38,16 +39,7 @@
     </form>
 
 
-    {if $messages->isError()}
-        <ol class="messages">
-            {foreach $messages->getErrors() as $err}
-            {strip}
-                <li>{$err}</li>
-            {/strip}
-            {/foreach}
-            </ol>
-    {/if}
-    <br>
+    {include file='messages.tpl'}
 
     {if isset($result->result)}
         <div class="result" >
