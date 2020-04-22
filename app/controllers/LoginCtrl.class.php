@@ -18,7 +18,7 @@ class LoginCtrl{
 
     public function validate() {
         if (! (isset ( $this->form->login ) && isset ( $this->form->pass ))) {
-            getMessages()->addError('Błędne wywołanie aplikacji!');
+            return false;
         }
 
         if (! getMessages()->isError ()) {
@@ -31,31 +31,26 @@ class LoginCtrl{
             }
         }
 
-        if (! getMessages()->isError() ) {
+
+        if ( !getMessages()->isError() ) {
             if ($this->form->login == "admin" && $this->form->pass == "admin") {
-                if (session_status() == PHP_SESSION_NONE) {
-                    session_start();
-                }
                 $user = new User($this->form->login, 'admin');
                 $_SESSION['user'] = serialize($user);
+                addRole($user->role);
+
             } else if ($this->form->login == "user" && $this->form->pass == "user") {
-                if (session_status() == PHP_SESSION_NONE) {
-                    session_start();
-                }
                 $user = new User($this->form->login, 'user');
                 $_SESSION['user'] = serialize($user);
+                addRole($user->role);
             } else {
                 getMessages()->addError('Incorrect username or password!');
             }
         }
-
         return ! getMessages()->isError();
     }
 
-    public function doLogin(){
-
+    public function doLogin() {
         $this->getParams();
-
         if ($this->validate()){
             header("Location: ".getConf()->app_url."/");
         } else {
@@ -65,15 +60,12 @@ class LoginCtrl{
     }
 
     public function doLogout(){
-        if (session_status() == PHP_SESSION_NONE) {
-            session_start();
-        }
         session_destroy();
         $this->generateView();
     }
 
     public function generateView(){
-        getSmarty()->assign('form',$this->form);
+        getSmarty()->assign('form', $this->form);
         getSmarty()->display('loginView.tpl');
     }
 }

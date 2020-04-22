@@ -2,32 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c30bac27-7db5-487d-9a88-62f6983afe3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/controllers/LoginCtrl.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/forms/LoginForm.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/transfer/User.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/loginView.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/templates/messages.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/check.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php_calc_cr.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php_calc_cr.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/CalcCtrl.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/CalcCtrl.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates_c/499a137043a948f3c53505aa7c75c41a0f525b98_0.file.credCal_view.html.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates_c/6048d9ab1598b79f45090bc1e8564950f0d3dda5_0.file.main.tpl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates_c/7763d9478897e4fdddf47c021c8efb39ee634d9f_0.file.main.html.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates_c/78fe41939fb424bfa2d89302ab8250d4ea0d6cb4_0.file.calcView.tpl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates_c/79b6d4a204e05bfdc6d178df0b6ff55b4bb1a3d5_0.file.calcView.html.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates_c/ca2b391d0fdcc144722ae01ff1cb6b1dad2746cf_0.file.credCal_view.html.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/calcView.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/calcView.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/LoginCtrl.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/LoginCtrl.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/check.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Config.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Config.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ctrl.php" beforeDir="false" afterPath="$PROJECT_DIR$/ctrl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates_c/13eb62cf54a1f072584f0783fe416896efcc9ff9_0.file.main.tpl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates_c/4553d3abe6d626d909ef6620c851784a6091d3d7_0.file.calcView.tpl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates_c/50cccfa16b114f280e85026491281dc009ed0361_0.file.main.tpl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates_c/55200427a13f6c88a68d5eef0e43ef3b22e2f7ed_0.file.calcView.tpl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates_c/8fa1b87125a9e4e173aab212f36e1a8cb4850dd0_0.file.credCal_view.html.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates_c/bea51b1983637dd1e2fdb952fb56f284363f9005_0.file.credCal_view.html.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates_c/dd6f94e6b95f87f05e197f03e890b95a0ce5ec90_0.file.main.html.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/init.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +48,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../php_07_ochrona_dostepu" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../php_07_role" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
@@ -132,22 +118,54 @@
       <workItem from="1587383015836" duration="1834000" />
       <workItem from="1587472577067" duration="1816000" />
       <workItem from="1587474595104" duration="1783000" />
-      <workItem from="1587476402640" duration="730000" />
+      <workItem from="1587476402640" duration="1592000" />
+      <workItem from="1587548301508" duration="1291000" />
+      <workItem from="1587550113150" duration="1787000" />
     </task>
+    <task id="LOCAL-00001" summary="Access protection">
+      <created>1587477343485</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587477343485</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New structure and namespaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="New structure and namespaces" />
+    <MESSAGE value="Access protection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Access protection" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="753" y="112" key="FileChooserDialogImpl" timestamp="1587472667442">
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587549888446">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="753" y="112" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1587472667442" />
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1587549888446" />
+    <state x="206" y="0" key="CommitChangelistDialog2" timestamp="1587477341505">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="206" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1587477341505" />
+    <state x="753" y="112" key="FileChooserDialogImpl" timestamp="1587548334204">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="753" y="112" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1587548334204" />
     <state x="804" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583831488987" />
     <state x="463" y="257" key="Github.CreateGistDialog" timestamp="1587282520198">
       <screen x="0" y="0" width="1280" height="680" />
@@ -213,6 +231,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1587383949188" />
+    <state width="254" height="198" key="ShowFilterAction_Filter_Popup" timestamp="1587550581429">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="254" height="198" key="ShowFilterAction_Filter_Popup/0.0.1280.680@0.0.1280.680" timestamp="1587550581429" />
     <state x="720" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1583831266300">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -229,9 +251,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="6" y="166" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1583310070565" />
-    <state x="79" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1583311226212">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="74" y="46" width="672" height="634" key="search.everywhere.popup" timestamp="1587550581423">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state x="74" y="46" width="672" height="634" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1587550581423" />
     <state x="79" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1583311226212" />
     <state x="471" y="59" key="svn.repositoryBrowser" timestamp="1587383495626">
       <screen x="0" y="0" width="1280" height="680" />

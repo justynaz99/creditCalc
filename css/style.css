@@ -39,9 +39,9 @@ body
     color: rgba(176,0,12,0.8);
     background-color: #FFD2D2;
     padding-top: 10px;
-    padding-left: 10px;
+    padding-left: 0px;
     padding-bottom: 10px;
-    width: 250px;
+    width: 270px;
     border-radius: 5px;
     list-style-type: none;
     letter-spacing: 1px;
@@ -53,11 +53,12 @@ body
     color: #4F8A10;
     background-color: #DFF2BF;
     padding-top: 20px;
-    padding-left: 10px;
+    padding-left: 30px;
     padding-bottom: 20px;
     width: 250px;
     border-radius: 5px;
     letter-spacing: 1px;
+    list-style-type: none;
 }
 
 .footer
@@ -67,4 +68,8 @@ body
     padding-top: 50px;
     letter-spacing: 2px;
 
+}
+
+li {
+    list-style-type: none;
 }
