@@ -51,7 +51,7 @@ class CalcCtrl {
         return ! getMessages()->isError();
     }
 
-    function process() {
+    public function action_calcCompute() {
 
         $this->getParams();
 
@@ -67,6 +67,10 @@ class CalcCtrl {
             $this->result->result=round($this->result->result);
         }
 
+        $this->generateView();
+    }
+
+    public function action_calcShow() {
         $this->generateView();
     }
 

@@ -49,7 +49,7 @@ class LoginCtrl{
         return ! getMessages()->isError();
     }
 
-    public function doLogin() {
+    public function action_login() {
         $this->getParams();
         if ($this->validate()){
             header("Location: ".getConf()->app_url."/");
@@ -59,7 +59,7 @@ class LoginCtrl{
 
     }
 
-    public function doLogout(){
+    public function action_logout(){
         session_destroy();
         $this->generateView();
     }

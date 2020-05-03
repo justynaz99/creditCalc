@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../Calculator/.idea/Calculator.iml" filepath="$PROJECT_DIR$/../Calculator/.idea/Calculator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../php_07_role/.idea/php_07_role.iml" filepath="$PROJECT_DIR$/../php_07_role/.idea/php_07_role.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../php_07_routing/.idea/php_07_routing.iml" filepath="$PROJECT_DIR$/../php_07_routing/.idea/php_07_routing.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/php_calc_cr.iml" filepath="$PROJECT_DIR$/.idea/php_calc_cr.iml" />
     </modules>
   </component>

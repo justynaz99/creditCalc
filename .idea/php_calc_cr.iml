@@ -6,6 +6,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Calculator" />
     <orderEntry type="module" module-name="php_05_uproszczony" />
-    <orderEntry type="module" module-name="php_07_role" />
+    <orderEntry type="module" module-name="php_07_routing" />
   </component>
 </module>

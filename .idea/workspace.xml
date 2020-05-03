@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c30bac27-7db5-487d-9a88-62f6983afe3a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/core/Route.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/Router.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php_calc_cr.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php_calc_cr.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/CalcCtrl.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/CalcCtrl.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/LoginCtrl.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/LoginCtrl.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ctrl.php" beforeDir="false" afterPath="$PROJECT_DIR$/ctrl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/init.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +47,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gallery" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../php_07_routing" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
@@ -112,6 +122,7 @@
       <workItem from="1587550113150" duration="1787000" />
       <workItem from="1587551930775" duration="902000" />
       <workItem from="1587645819612" duration="29000" />
+      <workItem from="1588479393467" duration="4606000" />
     </task>
     <task id="LOCAL-00001" summary="Access protection">
       <created>1587477343485</created>
@@ -161,10 +172,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="206" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1587552189168" />
-    <state x="753" y="112" key="FileChooserDialogImpl" timestamp="1587645843779">
+    <state x="753" y="112" key="FileChooserDialogImpl" timestamp="1588479443110">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="753" y="112" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1587645843779" />
+    <state x="753" y="112" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1588479443110" />
     <state x="804" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583831488987" />
     <state x="463" y="257" key="Github.CreateGistDialog" timestamp="1587282520198">
       <screen x="0" y="0" width="1280" height="680" />
