@@ -47,6 +47,7 @@ function &getRouter(): core\Router {
     return $router;
 }
 
+
 require_once 'core/functions.php';
 
 session_start();

@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c30bac27-7db5-487d-9a88-62f6983afe3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/core/Route.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/Router.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php_calc_cr.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php_calc_cr.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/CalcCtrl.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/CalcCtrl.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/LoginCtrl.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/LoginCtrl.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ctrl.php" beforeDir="false" afterPath="$PROJECT_DIR$/ctrl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/init.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +112,7 @@
       <workItem from="1587550113150" duration="1787000" />
       <workItem from="1587551930775" duration="902000" />
       <workItem from="1587645819612" duration="29000" />
-      <workItem from="1588479393467" duration="4606000" />
+      <workItem from="1588479393467" duration="5927000" />
     </task>
     <task id="LOCAL-00001" summary="Access protection">
       <created>1587477343485</created>
@@ -138,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587552190757</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Routing">
+      <created>1588486360929</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588486360929</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,17 +158,22 @@
     <MESSAGE value="New structure and namespaces" />
     <MESSAGE value="Access protection" />
     <MESSAGE value="Role" />
-    <option name="LAST_COMMIT_MESSAGE" value="Role" />
+    <MESSAGE value="Routing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Routing" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="233" y="0" key="#Notifications" timestamp="1588486811668">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1588486811668" />
     <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587549888446">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1587549888446" />
-    <state x="206" y="0" key="CommitChangelistDialog2" timestamp="1587552189168">
+    <state x="206" y="0" key="CommitChangelistDialog2" timestamp="1588486360074">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="206" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1587552189168" />
+    <state x="206" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1588486360074" />
     <state x="753" y="112" key="FileChooserDialogImpl" timestamp="1588479443110">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -245,6 +247,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="254" height="198" key="ShowFilterAction_Filter_Popup/0.0.1280.680@0.0.1280.680" timestamp="1587550581429" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1588486419666">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1588486419666" />
     <state x="720" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1583831266300">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -257,6 +263,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="546" y="69" width="696" height="705" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1583311898552" />
+    <state x="457" y="235" key="git4idea.ui.GitResetDialog" timestamp="1588486839059">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="457" y="235" key="git4idea.ui.GitResetDialog/0.0.1280.680@0.0.1280.680" timestamp="1588486839059" />
     <state x="6" y="166" key="run.anything.popup" timestamp="1583310070565">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

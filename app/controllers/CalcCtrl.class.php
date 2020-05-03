@@ -3,6 +3,7 @@
 namespace app\controllers;
 use app\forms\CalcForm;
 use app\transfer\CalcResult;
+use Medoo\Medoo;
 
 class CalcCtrl {
 
@@ -61,20 +62,79 @@ class CalcCtrl {
             $this->form->installment = intval($this->form->installment);
             $this->form->duration = intval($this->form->duration);
 
-            $iRate= $this->form->installment*$this->form->duration;
-            $q= 1+(3.5/12);
-            $this->result->result=$this->form->amount*pow($q,($this->form->duration*$iRate))*($q-1)/(pow($q,($this->form->duration*$iRate-1)));
+            $this->result->result = $this->form->amount/$this->form->duration/$this->form->installment;
             $this->result->result=round($this->result->result);
+        }
+
+        try {
+            $database = new Medoo ([
+                'database_type' => 'mysql',
+                'database_name' => 'calc',
+                'server' => 'localhost',
+                'username' => 'root',
+                'password' => '',
+                'charset' => 'utf8',
+                'collation' => 'utf8_polish_ci',
+                'port' => 3306,
+                'option' => [
+                    \PDO::ATTR_CASE => \PDO::CASE_NATURAL,
+                    \PDO::ATTR_ERRMODE => \PDO::ERRMODE_EXCEPTION
+                ]
+            ]);
+            $database->insert("result", [
+                "amount" => $this->form->amount,
+                "duration" => $this->form->duration,
+                "installment" => $this->form->installment,
+                "rate" => $this->result->result,
+                "date" => date("Y-m-d H:i:s"),
+            ]);
+
+        } catch (\PDOException $ex) {
+//            getMessages()->addError("DB error" . $ex->getMessage());
         }
 
         $this->generateView();
     }
 
+
+
     public function action_calcShow() {
         $this->generateView();
     }
 
-    public function generateView() {
+    public function action_sqlBaseShow() {
+        try{
+
+            $database = new Medoo([
+                // required
+                'database_type' => 'mysql',
+                'database_name' => 'calc',
+                'server' => 'localhost',
+                'username' => 'root',
+                'password' => '',
+
+                // [optional]
+                'charset' => 'utf8mb4',
+                'collation' => 'utf8mb4_polish_ci',
+                'port' => 3306,
+                'option' => [
+                    \PDO::ATTR_CASE => \PDO::CASE_NATURAL,
+                    \PDO::ATTR_ERRMODE => \PDO::ERRMODE_EXCEPTION
+                ]
+            ]);
+            // Select all columns
+            $datas = $database->select("result", "*");
+
+
+
+        }catch(\PDOException $ex) {
+//            getMessages()->addError("DB error:" . $ex->getMessage());
+        }
+        getSmarty()->assign('calc', $datas);
+        $this->generateView('database.tpl');
+    }
+
+    public function generateView($type='calcView.tpl') {
 
         getSmarty()->assign('user', unserialize($_SESSION['user']));
 
@@ -82,7 +142,7 @@ class CalcCtrl {
         getSmarty()->assign('form', $this->form);
         getSmarty()->assign('result', $this->result);
 
-        getSmarty()->display('calcView.tpl');
+        getSmarty()->display($type);
 
     }
 
